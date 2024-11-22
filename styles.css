@@ -1,0 +1,94 @@
+/* Reseta os estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #2c2c54;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav .login {
+    font-weight: bold;
+}
+
+.cart {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #6a0572, #240b36);
+}
+
+.text-box {
+    max-width: 40%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.text-box h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-box h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #c0a5f2;
+}
+
+.text-box p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.text-box button {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.text-box button:hover {
+    background-color: #5a52d4;
+}
+
+.image-box img {
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
